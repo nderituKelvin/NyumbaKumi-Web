@@ -107,6 +107,6 @@
 	Route::get('login', [
 		'as' => 'getlogin',
 		function(){
-			return redirect()->route('/');
+			return redirect()->route('loginPage');
 		}
 	]);
